@@ -11,6 +11,17 @@
 		55DDD4DA264BB71B003B3B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4D9264BB71B003B3B6D /* ContentView.swift */; };
 		55DDD4DC264BB71E003B3B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DDD4DB264BB71E003B3B6D /* Assets.xcassets */; };
 		55DDD4DF264BB71E003B3B6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DDD4DE264BB71E003B3B6D /* Preview Assets.xcassets */; };
+		55DDD4E9264BB938003B3B6D /* AVPlayer_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4E8264BB938003B3B6D /* AVPlayer_Extensions.swift */; };
+		55DDD4ED264BB97D003B3B6D /* ImageSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4EC264BB97D003B3B6D /* ImageSave.swift */; };
+		55DDD4F0264BB9B2003B3B6D /* PageSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4EF264BB9B2003B3B6D /* PageSwitch.swift */; };
+		55DDD4F4264BB9D9003B3B6D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4F3264BB9D9003B3B6D /* HomePage.swift */; };
+		55DDD4F8264BB9E6003B3B6D /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4F7264BB9E6003B3B6D /* GamePage.swift */; };
+		55DDD4FB264BB9F9003B3B6D /* ScorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4FA264BB9F9003B3B6D /* ScorePage.swift */; };
+		55DDD4FE264BBA86003B3B6D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD4FD264BBA86003B3B6D /* Test.swift */; };
+		55DDD501264BBA9D003B3B6D /* SavePhotoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD500264BBA9D003B3B6D /* SavePhotoPage.swift */; };
+		55DDD505264BBAC6003B3B6D /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD504264BBAC6003B3B6D /* Vocabulary.swift */; };
+		55DDD508264BBADF003B3B6D /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD507264BBADF003B3B6D /* Record.swift */; };
+		55DDD50B264BBC4B003B3B6D /* HelperFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDD50A264BBC4B003B3B6D /* HelperFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		55DDD4DB264BB71E003B3B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DDD4DE264BB71E003B3B6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55DDD4E0264BB71E003B3B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DDD4E8264BB938003B3B6D /* AVPlayer_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer_Extensions.swift; sourceTree = "<group>"; };
+		55DDD4EC264BB97D003B3B6D /* ImageSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSave.swift; sourceTree = "<group>"; };
+		55DDD4EF264BB9B2003B3B6D /* PageSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitch.swift; sourceTree = "<group>"; };
+		55DDD4F3264BB9D9003B3B6D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		55DDD4F7264BB9E6003B3B6D /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
+		55DDD4FA264BB9F9003B3B6D /* ScorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePage.swift; sourceTree = "<group>"; };
+		55DDD4FD264BBA86003B3B6D /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		55DDD500264BBA9D003B3B6D /* SavePhotoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePhotoPage.swift; sourceTree = "<group>"; };
+		55DDD504264BBAC6003B3B6D /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		55DDD507264BBADF003B3B6D /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		55DDD50A264BBC4B003B3B6D /* HelperFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +74,14 @@
 		55DDD4D6264BB71B003B3B6D /* HW3_Word */ = {
 			isa = PBXGroup;
 			children = (
+				55DDD503264BBAA6003B3B6D /* Struction */,
+				55DDD4F2264BB9BC003B3B6D /* ViewPages */,
+				55DDD4E7264BB907003B3B6D /* Resources */,
 				55DDD4D7264BB71B003B3B6D /* HW3_WordApp.swift */,
 				55DDD4D9264BB71B003B3B6D /* ContentView.swift */,
 				55DDD4DB264BB71E003B3B6D /* Assets.xcassets */,
 				55DDD4E0264BB71E003B3B6D /* Info.plist */,
+				55DDD50A264BBC4B003B3B6D /* HelperFunc.swift */,
 				55DDD4DD264BB71E003B3B6D /* Preview Content */,
 			);
 			path = HW3_Word;
@@ -67,6 +93,37 @@
 				55DDD4DE264BB71E003B3B6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55DDD4E7264BB907003B3B6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55DDD4E8264BB938003B3B6D /* AVPlayer_Extensions.swift */,
+				55DDD4EC264BB97D003B3B6D /* ImageSave.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55DDD4F2264BB9BC003B3B6D /* ViewPages */ = {
+			isa = PBXGroup;
+			children = (
+				55DDD4EF264BB9B2003B3B6D /* PageSwitch.swift */,
+				55DDD4F3264BB9D9003B3B6D /* HomePage.swift */,
+				55DDD4F7264BB9E6003B3B6D /* GamePage.swift */,
+				55DDD4FA264BB9F9003B3B6D /* ScorePage.swift */,
+				55DDD4FD264BBA86003B3B6D /* Test.swift */,
+				55DDD500264BBA9D003B3B6D /* SavePhotoPage.swift */,
+			);
+			path = ViewPages;
+			sourceTree = "<group>";
+		};
+		55DDD503264BBAA6003B3B6D /* Struction */ = {
+			isa = PBXGroup;
+			children = (
+				55DDD504264BBAC6003B3B6D /* Vocabulary.swift */,
+				55DDD507264BBADF003B3B6D /* Record.swift */,
+			);
+			path = Struction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +195,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DDD501264BBA9D003B3B6D /* SavePhotoPage.swift in Sources */,
+				55DDD4ED264BB97D003B3B6D /* ImageSave.swift in Sources */,
+				55DDD508264BBADF003B3B6D /* Record.swift in Sources */,
+				55DDD50B264BBC4B003B3B6D /* HelperFunc.swift in Sources */,
+				55DDD4F4264BB9D9003B3B6D /* HomePage.swift in Sources */,
+				55DDD4FE264BBA86003B3B6D /* Test.swift in Sources */,
 				55DDD4DA264BB71B003B3B6D /* ContentView.swift in Sources */,
+				55DDD505264BBAC6003B3B6D /* Vocabulary.swift in Sources */,
+				55DDD4FB264BB9F9003B3B6D /* ScorePage.swift in Sources */,
+				55DDD4F8264BB9E6003B3B6D /* GamePage.swift in Sources */,
+				55DDD4E9264BB938003B3B6D /* AVPlayer_Extensions.swift in Sources */,
+				55DDD4F0264BB9B2003B3B6D /* PageSwitch.swift in Sources */,
 				55DDD4D8264BB71B003B3B6D /* HW3_WordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
